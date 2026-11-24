@@ -1,0 +1,140 @@
+
+.main-container {
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+.custom-breadcrumb {
+  background: #343a40;
+  padding: 13px 22px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.custom-breadcrumb a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.custom-breadcrumb .breadcrumb-item {
+  color: #ffffff;
+}
+
+.custom-breadcrumb .breadcrumb-item.active {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.custom-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: #adb5bd;
+}
+
+.page-header {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 9px;
+  margin-bottom: 15px;
+}
+
+.page-header h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.page-header .btn-primary {
+  background-color: #193d73;
+  border-color: #193d73;
+}
+
+.student-grid {
+  padding: 0 32px;
+}
+
+.student-card {
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.student-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.14) !important;
+}
+
+.student-avatar {
+  height: 97px;
+  background: #ced0d4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.student-avatar i {
+  font-size: 85px;
+  line-height: 85px;
+  color: #93969a;
+}
+
+.student-card .card-body {
+  padding: 15px 17px;
+}
+
+.student-card .card-title {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.student-info {
+  font-size: 15px;
+  color: #333;
+}
+
+.search-box {
+  max-width: 350px;
+}
+
+.pagination .page-link {
+  color: #0d6efd;
+}
+
+.pagination .active .page-link {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.footer {
+  background: #212529 !important;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer hr {
+  border-color: #555;
+}
+
+@media (max-width: 767px) {
+  .student-grid {
+    padding: 0 12px;
+  }
+
+  .page-header h2 {
+    font-size: 24px;
+  }
+
+  .custom-breadcrumb {
+    padding: 10px 12px;
+  }
+
+  .search-box {
+    max-width: 100%;
+  }
+}
